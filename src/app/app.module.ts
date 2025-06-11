@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ShopModule } from "./shop/shop.module";
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, ShopModule
   ],
   providers: [],
   bootstrap: [AppComponent]
